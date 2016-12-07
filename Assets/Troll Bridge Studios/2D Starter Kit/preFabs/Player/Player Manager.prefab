@@ -363,6 +363,7 @@ GameObject:
   - 114: {fileID: 114000013824479746}
   - 114: {fileID: 114000013952215376}
   - 114: {fileID: 114000010606595590}
+  - 114: {fileID: 114000012512454028}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -502,6 +503,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947d5b8ed52e066498192c5f6e3fc69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000012512454028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012348616064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69e0ca7e1ba0828449fbd60b0b5c2ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000012658150578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -528,17 +540,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DefaultDamage: 0
-  CurrentDamage: 0
+  DefaultMoveSpeed: 50
   DefaultHealth: 3
   DefaultMaxHealth: 5
-  MaxHealth: 0
-  CurrentHealth: 0
   DefaultMana: 20
   DefaultMaxMana: 20
+  CurrentDamage: 0
+  BonusDamage: 0
+  CurrentMoveSpeed: 0
+  BonusMoveSpeed: 0
+  MaxHealth: 0
+  CurrentHealth: 0
+  BonusHealth: 0
   MaxMana: 0
   CurrentMana: 0
-  DefaultMoveSpeed: 50
-  CurrentMoveSpeed: 0
+  BonusMana: 0
 --- !u!114 &114000013272351064
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -76,6 +76,11 @@ namespace TrollBridge {
 			dialogueComponent.SetDialogueUIColors(dialogueColor, dialogueTextColor);
 		}
 
+        void Start()
+        {
+            dialogue = new string[]{ "Why does rain drops goes down and not up?"};
+        }
+
 		void DebugCheck(){
 			// IF user has the show area in scene 
 			if(showAreaInScene && (rangeCollider == null)){

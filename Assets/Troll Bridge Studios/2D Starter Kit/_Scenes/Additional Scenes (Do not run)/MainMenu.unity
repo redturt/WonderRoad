@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2f0c4f37bc9874892af46f90363916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NewGameSceneName: MainWorld
+  NewGameSceneName: Ido
 --- !u!4 &275350728 stripped
 Transform:
   m_PrefabParentObject: {fileID: 428546, guid: cded78b9fd00cdc4781b72d6da8a93d5, type: 2}
