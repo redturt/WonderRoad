@@ -11,8 +11,7 @@ EditorBuildSettings:
     path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
       not run)/MainMenu.unity
   - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/MainWorld.unity
+    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/erin.unity
   - enabled: 1
     path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
       not run)/HouseMd.unity
