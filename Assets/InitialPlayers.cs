@@ -55,7 +55,7 @@ public class InitialPlayers : MonoBehaviour {
     {
         GameObject charect = Instantiate(staticplayer);
         charect.GetComponentInChildren<TrollBridge.Area_Dialogue>().dialogue = new string[] {question };
-        charect.GetComponentInChildren<SpriteRenderer>().color = allcolors[currentplayer];
+        charect.GetComponentInChildren<SpriteRenderer>().color = allcolors[currentplayer%allcolors.Length];
         charect.transform.parent = parent;
         charect.transform.position = GameObject.FindGameObjectWithTag("Player").transform.position;
         users.Add(new User(charect));
