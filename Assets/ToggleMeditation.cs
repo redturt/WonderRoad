@@ -19,13 +19,14 @@ public class ToggleMeditation : MonoBehaviour {
             input.SetActive(!input.activeSelf);
             if (input.activeSelf)
             {
-                GameObject g = GameObject.FindGameObjectWithTag("Player");
-                field.text = ""+ g.transform.position;
+                field.text = "";
                 Time.timeScale = 0;
             }
-            else
+            else if (field.text.Length > 0)
             {
                 Time.timeScale = 1;
+                InitialPlayers.AddPlayer(field.text);
+                Application.LoadLevel("Demo Start");
             }
         }
 

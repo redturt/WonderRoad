@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 407752}
   - 114: {fileID: 114000013920975366}
   m_Layer: 0
-  m_Name: flowergirl
+  m_Name: staticplayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +181,7 @@ Animator:
   m_GameObject: {fileID: 1000014102228800}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b1762bfd0b69b0a48b0b8d638fc73244, type: 2}
+  m_Controller: {fileID: 9100000, guid: 800637ebc41f1a741818d177e454e273, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -352,18 +352,6 @@ MonoBehaviour:
   CanBeJolted: 0
   currentlyJolted: 0
   HitAnimationTime: 0.2
-  DefaultDamage: 0
-  CurrentDamage: 0
-  DefaultHealth: 10
-  DefaultMaxHealth: 5
-  MaxHealth: 0
-  CurrentHealth: 0
-  DefaultMana: 50
-  DefaultMaxMana: 20
-  MaxMana: 0
-  CurrentMana: 0
-  DefaultMoveSpeed: 1
-  CurrentMoveSpeed: 0
   GetHitSound: {fileID: 0}
   DieSound: {fileID: 0}
   afterDeathVisual: {fileID: 0}
@@ -429,7 +417,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -170768469
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 954745001a7412d449152c8731888375, type: 3}
+  m_Sprite: {fileID: 21300070, guid: b9b088d3c28f126418d23a9f4e620364, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
