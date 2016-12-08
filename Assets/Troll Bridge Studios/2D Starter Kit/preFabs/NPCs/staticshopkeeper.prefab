@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407752}
   - 114: {fileID: 114000013920975366}
+  - 114: {fileID: 114000013819967422}
   m_Layer: 0
   m_Name: staticshopkeeper
   m_TagString: Untagged
@@ -324,6 +325,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114000013819967422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b451f37f794734b8b1365d54845756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000013920975366
 MonoBehaviour:
   m_ObjectHideFlags: 1

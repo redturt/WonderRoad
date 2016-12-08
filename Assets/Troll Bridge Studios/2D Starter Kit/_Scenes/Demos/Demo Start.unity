@@ -2632,6 +2632,8 @@ MonoBehaviour:
     BGMusic: {fileID: 8300000, guid: d0b0000c821593a499762febe7cfd438, type: 3}
   - Name: InnBasement
     BGMusic: {fileID: 8300000, guid: c9d4705838511c347a75dce4d1598626, type: 3}
+  - Name: InnBasement
+    BGMusic: {fileID: 8300000, guid: 92ea0b63796166e40a2e9eaa44fd1b36, type: 3}
 --- !u!114 &827076141
 MonoBehaviour:
   m_ObjectHideFlags: 0

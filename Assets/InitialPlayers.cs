@@ -51,13 +51,23 @@ public class InitialPlayers : MonoBehaviour {
         }
 	}
 
+    private static string lastquestion;
+    private static Color lastcolor;
     public static void AddPlayer(string question)
     {
+        lastquestion = question;
+        lastcolor = allcolors[currentplayer % allcolors.Length];
         GameObject charect = Instantiate(staticplayer);
-        charect.GetComponentInChildren<TrollBridge.Area_Dialogue>().dialogue = new string[] {question };
-        charect.GetComponentInChildren<SpriteRenderer>().color = allcolors[currentplayer%allcolors.Length];
+        charect.GetComponentInChildren<TrollBridge.Area_Dialogue>().dialogue = new string[] { question };
+        charect.GetComponentInChildren<SpriteRenderer>().color = allcolors[currentplayer % allcolors.Length];
         charect.transform.parent = parent;
         charect.transform.position = GameObject.FindGameObjectWithTag("Player").transform.position;
         users.Add(new User(charect));
+    }
+
+    public static void SetQuestion(UnityEngine.UI.Text question)
+    {
+        question.text = lastquestion;
+        question.color = lastcolor;
     }
 }

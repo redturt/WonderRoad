@@ -27,5 +27,9 @@ public class ToggleInput : MonoBehaviour {
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            input.SetActive(false);
+        }
     }
 }

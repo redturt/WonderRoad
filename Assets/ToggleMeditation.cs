@@ -24,9 +24,12 @@ public class ToggleMeditation : MonoBehaviour {
             }
             else if (field.text.Length > 0)
             {
-                Time.timeScale = 1;
                 InitialPlayers.AddPlayer(field.text);
-                Application.LoadLevel("Demo Start");
+                Application.LoadLevel("MainMenuEnd");
+            }
+            else
+            {
+                Time.timeScale = 1;
             }
         }
 
